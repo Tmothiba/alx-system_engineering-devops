@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Listening on localhost
+
+nc -l 98
