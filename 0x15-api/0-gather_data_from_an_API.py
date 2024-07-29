@@ -6,7 +6,7 @@ from requests import get
 from sys import argv
 
 if __name__ == "__main__":
-    response = get('https://jsonplaceholder.typicode.com/todos/')
+    response = get('https://jsonplaceholder.typicode.com')
     data = response.json()
     completed = 0
     total = 0
